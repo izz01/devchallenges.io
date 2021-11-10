@@ -1,0 +1,93 @@
+header{
+    position: absolute;
+    padding: 20px;
+    margin-bottom: 100px;
+
+}
+header h1{
+    font-weight: bold;
+    position: absolute;
+    top: 40px;
+    left: 77px;
+}
+.main{
+    position :absolute;
+    margin-top: 265px;
+    left: 77px;
+}
+.main img{
+    position: absolute;
+    height: 400px;
+    width: 500px;
+}
+.main h1{
+    position: relative;
+    padding-left: 600px;
+    font-size: 64px;
+    font-family: 'Space Mono',monospace;
+}
+.main p{
+    padding-left: 600px;
+    margin-top : 36px;
+    font-size: 24px;
+    font-family:'Space Mono', monospace;
+}
+.main button{
+    margin-left: 600px;
+    margin-top: 64px;
+    width: 216px;
+    height: 68px;
+    background-color: #333333;
+    font-family: 'Space Mono', monospace;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+}
+.end{
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+}
+
+@media screen and (max-width: 768px) {
+    header{
+        top: 20px;
+        left: 24px;
+        position: absolute;
+        padding:0;
+        padding-right: 24px;
+    }
+    .main img{
+        size: auto;
+        position: relative;
+        top: 109px;
+        padding-bottom: 120px;
+
+    }
+    .main h1{
+        font-size: 59px;
+        padding: 0;
+
+    }
+    .main{
+        position: relative;
+        top:0px;
+        padding-top: 0;
+        margin: 0;
+    }
+    .main p{
+        top: 579px;
+        padding:0;
+    }
+    .main button{
+        position: relative;
+        margin-left: 0;
+    }
+    .end{
+        bottom: 0px;
+        bottom: 100%;
+        position: relative;
+        top:20px;
+        width: 768px;
+    }
+}
